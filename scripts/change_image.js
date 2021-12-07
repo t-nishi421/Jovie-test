@@ -9,7 +9,8 @@ $(function(){
         $(this).addClass("use-item");
 
         // 画像を変更
-        const image_url = "images/display_images/" + $(this).attr("id") + ".png";
+        const id = $(this).attr("id")
+        const image_url = `images/display_images/${id}.png`;
         image_box.children('img').attr('src', image_url)
     });
 });
