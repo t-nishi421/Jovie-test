@@ -9,9 +9,7 @@ $(function(){
         $(this).addClass("use-item");
 
         // 画像を変更
-        image_box.empty();
-
-        let image_url = "images/display_images/" + $(this).attr("id") + ".png";
-        image_box.append('<img src="' + image_url + '" alt="順次追加予定">');
+        const image_url = "images/display_images/" + $(this).attr("id") + ".png";
+        image_box.children('img').attr('src', image_url)
     });
 });
