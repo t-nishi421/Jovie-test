@@ -1,0 +1,99 @@
+/********
+ * 全般 *
+ ********/
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+header {
+    min-height: 60px;
+    width: 100%;
+    background-color: #cc6666;
+}
+#title {
+    display: inline-block;
+    margin: 10px 10px 10px 30px;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
+}
+#subtitle {
+    color: white;
+}
+#main-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* *************
+ * メニューバー *
+ ***************/
+#menu-bar {
+    height: calc(100vh - 60px);
+    width: 220px;
+    padding: 15px;
+    background-color: #ffcccc;
+}
+.menu-item {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* ユーザーボックス */
+#user-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#user-image {
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid lightblue;
+}
+#user-name {
+    margin: 0 10px;
+}
+
+/* *****************
+ * メインコンテンツ *
+ *******************/
+main {
+    width: 100%;
+}
+#image-list-box {
+    height: 60px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: lightskyblue;
+}
+#image-list {
+    display: flex;
+}
+.image-item {
+    margin-left: 10px;
+    padding: 5px 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.use-item {
+    color: white;
+    background-color: royalblue;
+}
+
+.image-item-last {
+    border-right: 1px solid black;
+}
