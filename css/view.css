@@ -1,0 +1,21 @@
+video {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+}
+
+#wrapper {
+    margin-left: 20px;
+}
+
+#video-descriptoin {
+    margin-bottom: 10px;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts/no_enter_submit.js"></script>
+    <script type="text/javascript" src="scripts/upload.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/upload.css">
+    <title>Jovie</title>
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <span id="title">Jovie</span>
+            <span id="subtitle">~ 繋がるミライ探しアプリ ~</span>
+        </a>
+    </header>
+    <div id="main-wrapper">
+        <nav id="menu-bar">
+            <div id="user-box">
+                <img id="user-image" src="images/user_image.png" alt="icon">
+                <div id="user-name">あなた</div>
+            </div>
+            <ul>
+                <a href="upload.html">
+                    <li class="menu-item">動画投稿</li>
+                </a>
+                <a href="view.html">
+                    <li class="menu-item">動画視聴</li>
+                </a>
+                <a href="">
+                    <li class="menu-item">メニュー3</li>
+                </a>
+                <a href="">
+                    <li class="menu-item">メニュー4</li>
+                </a>
+                <a href="">
+                    <li class="menu-item">メニュー5</li>
+                </a>
+            </ul>
+        </nav>
+        <main id="wrapper">
+            <h1>動画をアップロード</h1>
+            <form action="view.html" method="post" enctype="multipart/form-data">
+                <div id="drop-zone">
+                    <p>ファイルをドラッグ＆ドロップもしくは</p>
+                    <input type="file" name="file" id="file-input" accept="video/*">
+                </div>
+                <h2>アップロードした動画</h2>
+                <div id="preview"></div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

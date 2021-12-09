@@ -1,0 +1,28 @@
+video {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#wrapper {
+    margin-left: 20px;
+}
+
+#drop-zone {
+    width: 400px;
+    padding: 30px;
+    background-color: #e7e7e7;
+    border: 3px solid #c0c0c0;
+    border-radius: 10px;
+}
+
+#video-title {
+    display: inline-block;
+    margin: 10px 10px 10px 30px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#submit {
+    margin: 10px 0px;
+}
