@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts/change_image.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/list.css">
+    <title>Jovie</title>
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <span id="title">Jovie</span>
+            <span id="subtitle">~ 繋がるミライ探しアプリ ~</span>
+        </a>
+    </header>
+    <div id="main-wrapper">
+        <nav id="menu-bar">
+            <div id="user-box">
+                <img id="user-image" src="images/user_image.png" alt="icon">
+                <div id="user-name">あなた</div>
+            </div>
+            <ul>
+                <a href="upload.html">
+                    <li class="menu-item">動画投稿</li>
+                </a>
+                <a href="view.html">
+                    <li class="menu-item">動画視聴</li>
+                </a>
+                <a href="list.html">
+                    <li class="menu-item">動画一覧</li>
+                </a>
+                <a href="">
+                    <li class="menu-item">メニュー4</li>
+                </a>
+                <a href="">
+                    <li class="menu-item">メニュー5</li>
+                </a>
+            </ul>
+        </nav>
+        <main>
+            <article class="video-box">
+				<div class="thumbnail-box">
+					<video src="videos/1.MP4"></video>
+				</div>
+				<div class="video-title">
+					<h1>
+						動画タイトル
+					</h1>
+				</div>
+			</article>
+			<article class="video-box">
+				<div class="thumbnail-box">
+					<video src="videos/2.mp4"></video>
+				</div>
+				<div class="video-title">
+					<h1>
+						動画タイトル
+					</h1>
+				</div>
+			</article>
+        </main>
+    </div>
+</body>
+</html>
