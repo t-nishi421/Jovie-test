@@ -1,6 +1,6 @@
 $(function(){
     const image_button = $(".image-item");
-    const image_box = $("#image-box");
+    const video_area = $("#wrapper");
 
     image_button.on("click", function(){
 
@@ -8,9 +8,9 @@ $(function(){
         image_button.removeClass("use-item");
         $(this).addClass("use-item");
 
-        // 画像を変更
+        // 動画を変更
         const id = $(this).attr("id");
-        const image_url = `images/display_images/${id}.png`;
-        image_box.children('img').attr('src', image_url);
+        const video_url = `videos/${id}.mp4`;
+        video_area.children('video').attr('src', video_url);
     });
 });
