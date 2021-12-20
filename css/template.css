@@ -96,3 +96,11 @@ main {
 .image-item-last {
     border-right: 1px solid black;
 }
+
+/*****************
+ * 随所で使うやつ *
+ *****************/
+
+ .allow-icon {
+     height: 20px;
+ }

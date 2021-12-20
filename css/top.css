@@ -1,0 +1,65 @@
+#top-wrapper {
+    background-color: #ffd2d9;
+    border-bottom: 2px solid #630b3a;
+}
+
+#top-image {
+    position: relative;
+
+    /* 下記記事を参考にして作成
+     * https://taneppa.net/responsive_background_image/ */
+    background-image: url("../images/top_img.png");
+    width: 70%;
+    height: 0;
+ 
+    margin: 0 auto;
+    /* (画像の高さ / 画像の横幅) × 100 */
+    padding-top: 39.6666666667%;
+ 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#top-title {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.shindan-button {
+    background-image: url("../images/shindan/shindan_button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 14%;
+    width: 35%;
+    position: absolute;
+    top: 46%;
+    left: 32%;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.shindan-button-bottom {
+    background-image: url("../images/shindan/shindan_button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 68px;
+    width: 307px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+#infomations {
+    margin-left: 15px;
+}
+
+#title {
+    font-size: 45px;
+}
+
+#subtitle {
+    font-size: 20px;
+}

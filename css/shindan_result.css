@@ -1,0 +1,27 @@
+#videos-box {
+    display: flex;
+}
+
+.video-box {
+    margin: 10px 5px;
+    padding: 10px 5px;
+    height: 190px;
+    width: 300px;
+
+    background-color: #eeeeee;
+}
+
+video {
+    height: 150px;
+    width: 300px;
+}
+
+.video-title {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#result-img {
+    height: auto;
+    width: 700px;
+}
